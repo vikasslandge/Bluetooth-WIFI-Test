@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth   "
+            android:layout_marginHorizontal="22sp"
+            android:textSize="25sp"
+            android:id="@+id/s1"
+            />
+        <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22sp"
+        android:text=" Wifi   "
+        android:textSize="25sp"
+        android:id="@+id/s2"
+        />
+    </LinearLayout>>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginHorizontal="22sp"
+             android:text="Search bt"
+             android:id="@+id/searchbt"/>
+
+         <Button
+             android:id="@+id/searchwifi"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:text="Search WIFI" />
+         <Button
+         android:id="@+id/wifipaired"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:text="WIFI Paired" />
+     </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lview"/>
+
+</LinearLayout>
